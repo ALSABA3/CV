@@ -178,5 +178,5 @@ send.addEventListener("click", (e) => {
   project = project.value;
   let message = document.querySelector("#message");
   message = message.value;
-  send.href = `https://wa.me/905418773169?text=name:${name}%20email:${email}%20project:${project}%20message:${message}`;
+  send.href = `https://wa.me/905360321379?text=name:${name}%20email:${email}%20project:${project}%20message:${message}`;
 });
