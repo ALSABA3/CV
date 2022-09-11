@@ -167,16 +167,16 @@ themeButton.addEventListener("click", () => {
 });
 
 // send from form to whatsapp
-// const form = document.querySelector("form");
-// form.addEventListener("submit", (e) => {
-//   e.preventDefault();
-//   let name = document.querySelector("#name");
-//   name = name.innerText;
-//   let email = document.querySelector("#email");
-//   email = email.innerText;
-//   let project = document.querySelector("#project");
-//   project = project.innerText;
-//   let message = document.querySelector("#message");
-//   message = message.innerText;
-//   form.action = `https://wa.me/905360321379/?text=name:${name} email:${email} project:${project} message:${message}`;
-// });
+const send = document.querySelector("#send");
+send.addEventListener("click", (e) => {
+  // e.preventDefault();
+  let name = document.querySelector("#name");
+  name = name.value;
+  let email = document.querySelector("#email");
+  email = email.value;
+  let project = document.querySelector("#project");
+  project = project.value;
+  let message = document.querySelector("#message");
+  message = message.value;
+  send.href = `https://wa.me/905418773169?text=name:${name}%20email:${email}%20project:${project}%20message:${message}`;
+});
