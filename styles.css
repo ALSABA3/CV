@@ -476,16 +476,10 @@ img {
 .skills__cs {
   width: 80%;
 }
-.skills__figma {
-  width: 10%;
-}
-.skills__sketch {
-  width: 1%;
-}
 .skills__photoshop {
   width: 90%;
 }
-.skills__illustrator {
+.skills__illustartor {
   width: 60%;
 }
 .skills__close .skills__list {
